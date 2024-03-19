@@ -1,0 +1,126 @@
+#formcontainer {
+    display: none;
+}
+
+/* remove all margins */
+*{
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/bg8-1024x640.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+
+
+}
+
+.navbar{
+    background-color: #3c0f45;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-left: 20px;
+    color: white;
+    font: 3rem Arial, sans-serif;
+}
+
+#formcontainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 40%;
+}
+
+.close{
+    position: absolute;
+    display: none;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    width: 80%;
+    height: 10%;
+}
+
+.toggle{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    width: 10%;
+    margin-top: 2rem;
+}
+
+.submit{
+    padding: 10px;
+    border-radius: 5px;
+    height: 10%;
+    width: 80%;
+    border: 1px solid #ced4da;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td{
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+
+}
+
+th{
+    background-color: #3c0f45;
+    color: white;
+}
+
+
+tr:hover{
+    background-color: #f5f5f5;
+}
