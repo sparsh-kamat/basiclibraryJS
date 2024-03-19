@@ -6,4 +6,3 @@ The system provides a user-friendly interface where users can easily add new boo
 Hosted on Netlify At:
 https://varglibrary.netlify.app/
 
-![Uploading Screenshot 2024-03-19 at 8.49.23 PM.png…]()
